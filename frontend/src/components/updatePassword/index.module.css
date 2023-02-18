@@ -1,0 +1,25 @@
+.popupcontainer{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(230, 199, 199, 0.593);
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontainer{
+    width: 50%;
+    /* background-color: blue; */
+    position: relative;
+}
+.form{
+    width: 100%;
+}
+.cross{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    cursor: pointer;
+}

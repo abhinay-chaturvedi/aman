@@ -1,0 +1,58 @@
+.section{
+    padding: 20px;
+    background-color: rgb(225, 180, 180);
+    display: flex;
+    gap: 10px;
+    
+}
+.leftSection{
+    /* background-color: blueviolet; */
+    flex: 4;
+    text-align: center;
+}
+.rightSection{
+    /* background-color: rgb(72, 156, 24); */
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.availableIds{
+    /* background-color: rgb(164, 32, 32,0.8); */
+    margin: 11px;
+    padding: 2px;
+}
+.ids{
+    background-color: rgb(227, 239, 227);
+    /* border: 1px solid red; */
+    margin: 15px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btnPur{
+    cursor: pointer;
+    height: 22px;
+    padding: 0px 12px;
+    font-size: 12px;
+}
+.information{
+    margin: 8px;
+    padding: 2px;
+    background-color: rgb(34, 34, 169);
+}
+/* .addId{
+    background-color: black;
+} */
+@media only screen and (max-width: 650px) {
+    .section {
+      background-color: lightblue;
+      display: block;
+    }
+    .ids{
+        display: block;
+    }
+  }

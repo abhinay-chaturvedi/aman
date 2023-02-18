@@ -1,0 +1,56 @@
+.header{
+    padding: 15px;
+    height: 60px;
+    background-color: rgba(142, 94, 94, 0.7);
+}
+.headerContainer{
+    /* background-color: brown; */
+    height: 100%;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoContainer{
+    color: rgb(12, 10, 6);
+    
+    /* background-color: rgb(123, 75, 168,0.5); */
+    
+}
+.userContainer{
+    color: rgb(20, 19, 19);
+    /* background-color: rgb(123, 75, 168,0.5); */
+}
+.logo{
+    margin: 0px;
+    cursor: pointer;
+}
+.user{
+    margin: 0px;
+    cursor: pointer;
+}
+.adminbtncontainer{
+
+color: aquamarine;
+
+}
+.adminbtn{
+    /* border-radius: 12px; */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(153, 118, 118);
+    padding: 0px 6px;
+}
+@media only screen and (max-width: 650px) {
+   .logo{
+    font-size: medium;
+   }
+   .adminbtn{
+    font-weight: lighter;
+   }
+   .user{
+    font-size: medium;
+   }
+  }

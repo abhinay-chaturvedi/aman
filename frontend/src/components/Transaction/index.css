@@ -1,0 +1,34 @@
+
+.historyContainer{
+    background-color: rgb(179, 159, 159);
+    border: 2px solid rgb(18, 17, 19);
+    /* border-top: black; */
+    min-height: 90vh;
+    margin-top: 0;
+   
+}
+.historyList{
+    /* background-color: blue; */
+    /* border: 3px solid red; */
+    margin: 24px 0px;
+    display: flex;
+    /* text-align: center;
+     */
+     border-radius: 8px;
+     justify-content: center;
+     box-shadow: 1px 1px 15px aquamarine;;
+     /* background: -webkit-gradient(); */
+}
+.historyListItem{
+    flex: 1;
+    background-color: rgb(205, 227, 220);
+    list-style: none;
+    /* margin: 4px; */
+}
+@media only screen and (max-width: 750px) {
+
+
+    .historyList{
+        display: block;
+    }
+   }
